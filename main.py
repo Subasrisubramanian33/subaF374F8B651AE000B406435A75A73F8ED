@@ -24,7 +24,7 @@ class BankAccount:
     print("Hai {} Balance for your Account No. {} is Rs.{}".format(self.__acname,b,a))
 
 
-acc = BankAccount(1234,"Chellam",2000)
+acc = BankAccount(1234,"subasri",2000)
 acc.display()
 acc.deposit(500)
 acc.withdraw(1000)
